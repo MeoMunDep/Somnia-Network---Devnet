@@ -97,7 +97,7 @@ if exist "..\node_modules" (
 ) else (
     echo Using node_modules from current directory
 )
-node bot
+cd somnia && node bot
 pause
 goto MENU
 
